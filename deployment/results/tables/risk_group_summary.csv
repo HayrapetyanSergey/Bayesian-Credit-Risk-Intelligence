@@ -1,0 +1,4 @@
+risk_group,customers,defaults,default_rate,non_defaults,default_rate_pct
+1-month delay,3688,1252,0.33947939262472887,2436,33.95
+2+ months delay,3130,2177,0.6955271565495208,953,69.55
+No reported delay,23182,3207,0.13834009145026313,19975,13.83

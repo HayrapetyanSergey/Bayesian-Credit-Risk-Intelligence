@@ -1,0 +1,46 @@
+{
+    "dataset": "Default of Credit Card Clients",
+    "observations": 30000,
+    "columns": 25,
+    "original_missing_values": 0,
+    "duplicate_ids": 0,
+    "target_distribution": {
+        "0": 23364,
+        "1": 6636
+    },
+    "default_rate": 0.2212,
+    "original_education_codes": {
+        "0": 14,
+        "1": 10585,
+        "2": 14030,
+        "3": 4917,
+        "4": 123,
+        "5": 280,
+        "6": 51
+    },
+    "original_marriage_codes": {
+        "0": 54,
+        "1": 13659,
+        "2": 15964,
+        "3": 323
+    },
+    "processed_education_codes": {
+        "1": 10585,
+        "2": 14030,
+        "3": 4917,
+        "4": 468
+    },
+    "processed_marriage_codes": {
+        "1": 13659,
+        "2": 15964,
+        "3": 377
+    },
+    "preprocessing": [
+        "Removed the extra CSV header row",
+        "Standardized column names",
+        "Renamed PAY_0 to pay_1",
+        "Combined undocumented education codes into Other",
+        "Combined marriage code 0 into Other",
+        "Preserved all observations"
+    ]
+}

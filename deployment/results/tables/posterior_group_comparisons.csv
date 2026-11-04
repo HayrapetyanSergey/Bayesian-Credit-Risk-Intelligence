@@ -1,0 +1,4 @@
+group_a,group_b,p_b_greater_than_a,mean_difference,difference_ci_95_lower,difference_ci_95_upper
+No reported delay,1-month delay,1.0,0.2012082029331257,0.18530696540741956,0.2172144373836073
+No reported delay,2+ months delay,1.0,0.5570052845074971,0.5401159169759316,0.5737405938326025
+1-month delay,2+ months delay,1.0,0.3557970815743714,0.33339609333156,0.3779189660064649

@@ -1,0 +1,16 @@
+{
+    "algorithm": "Random-Walk Metropolis-Hastings",
+    "parameterization": "Logit-transformed probability",
+    "chains": 4,
+    "tuning_iterations_per_chain": 1500,
+    "posterior_draws_per_chain": 3000,
+    "total_posterior_draws_per_group": 12000,
+    "maximum_rhat": 1.0009929099176005,
+    "minimum_bulk_ess": 2630.11462772128,
+    "mean_acceptance_rate": 0.4575277777777778,
+    "convergence_thresholds": {
+        "rhat_max": 1.01,
+        "bulk_ess_min": 400
+    },
+    "diagnostics_passed": true
+}

@@ -1,0 +1,95 @@
+{
+    "model": "Beta-Binomial",
+    "prior": {
+        "distribution": "Beta",
+        "alpha": 1.0,
+        "beta": 1.0
+    },
+    "estimation_methods": [
+        "Analytical conjugate posterior",
+        "Grid approximation"
+    ],
+    "credible_level": 0.95,
+    "random_seed": 42,
+    "posterior_sample_count": 100000,
+    "maximum_grid_mean_difference": 6.938893903907228e-16,
+    "posterior_results": [
+        {
+            "risk_group": "No reported delay",
+            "customers": 23182,
+            "defaults": 3207,
+            "observed_default_rate": 0.13834009145026313,
+            "prior_alpha": 1.0,
+            "prior_beta": 1.0,
+            "posterior_alpha": 3208.0,
+            "posterior_beta": 19976.0,
+            "posterior_mean": 0.13837129054520358,
+            "ci_95_lower": 0.1339564039363691,
+            "ci_95_upper": 0.1428452720299639,
+            "grid_mean": 0.1383712905452029,
+            "grid_ci_95_lower": 0.13368919917125538,
+            "grid_ci_95_upper": 0.14260259532388544,
+            "method_difference": 6.938893903907228e-16
+        },
+        {
+            "risk_group": "1-month delay",
+            "customers": 3688,
+            "defaults": 1252,
+            "observed_default_rate": 0.33947939262472887,
+            "prior_alpha": 1.0,
+            "prior_beta": 1.0,
+            "posterior_alpha": 1253.0,
+            "posterior_beta": 2437.0,
+            "posterior_mean": 0.33956639566395663,
+            "ci_95_lower": 0.3243722699540867,
+            "ci_95_upper": 0.3549252435507116,
+            "grid_mean": 0.33956639566395663,
+            "grid_ci_95_lower": 0.3241190713140509,
+            "grid_ci_95_upper": 0.35467974453431933,
+            "method_difference": 0.0
+        },
+        {
+            "risk_group": "2+ months delay",
+            "customers": 3130,
+            "defaults": 2177,
+            "observed_default_rate": 0.6955271565495208,
+            "prior_alpha": 1.0,
+            "prior_beta": 1.0,
+            "posterior_alpha": 2178.0,
+            "posterior_beta": 954.0,
+            "posterior_mean": 0.6954022988505747,
+            "ci_95_lower": 0.6791698199243248,
+            "ci_95_upper": 0.7113984096429335,
+            "grid_mean": 0.6954022988505747,
+            "grid_ci_95_lower": 0.6789183477920752,
+            "grid_ci_95_upper": 0.711152229992664,
+            "method_difference": 0.0
+        }
+    ],
+    "group_comparisons": [
+        {
+            "group_a": "No reported delay",
+            "group_b": "1-month delay",
+            "p_b_greater_than_a": 1.0,
+            "mean_difference": 0.2012082029331257,
+            "difference_ci_95_lower": 0.18530696540741956,
+            "difference_ci_95_upper": 0.2172144373836073
+        },
+        {
+            "group_a": "No reported delay",
+            "group_b": "2+ months delay",
+            "p_b_greater_than_a": 1.0,
+            "mean_difference": 0.5570052845074971,
+            "difference_ci_95_lower": 0.5401159169759316,
+            "difference_ci_95_upper": 0.5737405938326025
+        },
+        {
+            "group_a": "1-month delay",
+            "group_b": "2+ months delay",
+            "p_b_greater_than_a": 1.0,
+            "mean_difference": 0.3557970815743714,
+            "difference_ci_95_lower": 0.33339609333156,
+            "difference_ci_95_upper": 0.3779189660064649
+        }
+    ]
+}

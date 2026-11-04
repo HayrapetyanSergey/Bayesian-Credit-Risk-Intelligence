@@ -1,0 +1,161 @@
+{
+    "assessment_methods": [
+        "Prior sensitivity analysis",
+        "Held-out predictive validation"
+    ],
+    "test_size": 0.2,
+    "split_random_seed": 42,
+    "sensitivity_priors": [
+        {
+            "name": "Uniform Beta(1,1)",
+            "alpha": 1.0,
+            "beta": 1.0
+        },
+        {
+            "name": "Low-risk Beta(2,8)",
+            "alpha": 2.0,
+            "beta": 8.0
+        },
+        {
+            "name": "Neutral Beta(5,5)",
+            "alpha": 5.0,
+            "beta": 5.0
+        }
+    ],
+    "heldout_coverage_all_groups": false,
+    "mean_brier_score": 0.1806317094845602,
+    "mean_log_loss": 0.5419115990115718,
+    "prior_sensitivity_results": [
+        {
+            "prior": "Uniform Beta(1,1)",
+            "risk_group": "No reported delay",
+            "train_customers": 18546,
+            "train_defaults": 2622,
+            "posterior_mean": 0.1414168643519517,
+            "ci_95_lower": 0.13643912037865166,
+            "ci_95_upper": 0.14646785149265834
+        },
+        {
+            "prior": "Uniform Beta(1,1)",
+            "risk_group": "1-month delay",
+            "train_customers": 2950,
+            "train_defaults": 1007,
+            "posterior_mean": 0.34146341463414637,
+            "ci_95_lower": 0.32446335491385625,
+            "ci_95_upper": 0.35866694282087613
+        },
+        {
+            "prior": "Uniform Beta(1,1)",
+            "risk_group": "2+ months delay",
+            "train_customers": 2504,
+            "train_defaults": 1738,
+            "posterior_mean": 0.6939345570630486,
+            "ci_95_lower": 0.675749889554165,
+            "ci_95_upper": 0.7118260302752131
+        },
+        {
+            "prior": "Low-risk Beta(2,8)",
+            "risk_group": "No reported delay",
+            "train_customers": 18546,
+            "train_defaults": 2622,
+            "posterior_mean": 0.14140978659193792,
+            "ci_95_lower": 0.13643321325981286,
+            "ci_95_upper": 0.14645957295971432
+        },
+        {
+            "prior": "Low-risk Beta(2,8)",
+            "risk_group": "1-month delay",
+            "train_customers": 2950,
+            "train_defaults": 1007,
+            "posterior_mean": 0.34087837837837837,
+            "ci_95_lower": 0.3239085932348592,
+            "ci_95_upper": 0.35805183086636966
+        },
+        {
+            "prior": "Low-risk Beta(2,8)",
+            "risk_group": "2+ months delay",
+            "train_customers": 2504,
+            "train_defaults": 1738,
+            "posterior_mean": 0.6921241050119332,
+            "ci_95_lower": 0.6739403551186705,
+            "ci_95_upper": 0.7100183218491097
+        },
+        {
+            "prior": "Neutral Beta(5,5)",
+            "risk_group": "No reported delay",
+            "train_customers": 18546,
+            "train_defaults": 2622,
+            "posterior_mean": 0.1415714593662427,
+            "ci_95_lower": 0.1365924766809168,
+            "ci_95_upper": 0.1466236220808666
+        },
+        {
+            "prior": "Neutral Beta(5,5)",
+            "risk_group": "1-month delay",
+            "train_customers": 2950,
+            "train_defaults": 1007,
+            "posterior_mean": 0.3418918918918919,
+            "ci_95_lower": 0.3249092445811727,
+            "ci_95_upper": 0.3590769093341529
+        },
+        {
+            "prior": "Neutral Beta(5,5)",
+            "risk_group": "2+ months delay",
+            "train_customers": 2504,
+            "train_defaults": 1738,
+            "posterior_mean": 0.6933174224343676,
+            "ci_95_lower": 0.6751522590057772,
+            "ci_95_upper": 0.7111912545496235
+        }
+    ],
+    "heldout_validation_results": [
+        {
+            "risk_group": "No reported delay",
+            "train_customers": 18546,
+            "train_defaults": 2622,
+            "test_customers": 4636,
+            "test_defaults": 585,
+            "posterior_mean_pd": 0.1414168643519517,
+            "observed_test_rate": 0.12618636755823986,
+            "expected_test_defaults": 655.608583135648,
+            "predictive_sd": 26.524513417633294,
+            "predictive_lower_95": 604,
+            "predictive_upper_95": 708,
+            "coverage": false,
+            "brier_score": 0.11049533623327991,
+            "log_loss": 0.38005790135992
+        },
+        {
+            "risk_group": "1-month delay",
+            "train_customers": 2950,
+            "train_defaults": 1007,
+            "test_customers": 738,
+            "test_defaults": 245,
+            "posterior_mean_pd": 0.34146341463414637,
+            "observed_test_rate": 0.3319783197831978,
+            "expected_test_defaults": 252.00000000000003,
+            "predictive_sd": 14.400304771580085,
+            "predictive_lower_95": 224,
+            "predictive_upper_95": 280,
+            "coverage": true,
+            "brier_score": 0.22185868200145417,
+            "log_loss": 0.6357717676584099
+        },
+        {
+            "risk_group": "2+ months delay",
+            "train_customers": 2504,
+            "train_defaults": 1738,
+            "test_customers": 626,
+            "test_defaults": 439,
+            "posterior_mean_pd": 0.6939345570630486,
+            "observed_test_rate": 0.7012779552715654,
+            "expected_test_defaults": 434.40303272146843,
+            "predictive_sd": 12.888052087683269,
+            "predictive_lower_95": 409,
+            "predictive_upper_95": 459,
+            "coverage": true,
+            "brier_score": 0.20954111021894653,
+            "log_loss": 0.6099051280163855
+        }
+    ]
+}
