@@ -1,0 +1,132 @@
+{
+    "model": "Beta-Binomial Posterior Predictive",
+    "random_seed": 42,
+    "simulations_per_scenario": 100000,
+    "future_customer_scenarios": [
+        100,
+        500,
+        1000
+    ],
+    "predictive_interval_level": 0.95,
+    "prediction_type": "Group-level future default counts",
+    "assumption": "Future customers are exchangeable with the observed customers within each repayment-history group",
+    "results": [
+        {
+            "risk_group": "No reported delay",
+            "future_customers": 100,
+            "posterior_mean_pd": 0.13837129054520358,
+            "expected_defaults": 13.837129054520359,
+            "predictive_sd": 3.460256726369029,
+            "predictive_lower_95": 7,
+            "predictive_upper_95": 21,
+            "expected_default_rate_pct": 13.837129054520357,
+            "simulated_mean": 13.81599,
+            "simulated_sd": 3.4630290671462745,
+            "prob_more_than_30pct_default": 0.0
+        },
+        {
+            "risk_group": "No reported delay",
+            "future_customers": 500,
+            "posterior_mean_pd": 0.13837129054520358,
+            "expected_defaults": 69.18564527260179,
+            "predictive_sd": 7.803547075038391,
+            "predictive_lower_95": 54,
+            "predictive_upper_95": 85,
+            "expected_default_rate_pct": 13.837129054520357,
+            "simulated_mean": 69.21404,
+            "simulated_sd": 7.831121687114816,
+            "prob_more_than_30pct_default": 0.0
+        },
+        {
+            "risk_group": "No reported delay",
+            "future_customers": 1000,
+            "posterior_mean_pd": 0.13837129054520358,
+            "expected_defaults": 138.37129054520358,
+            "predictive_sd": 11.15176459717271,
+            "predictive_lower_95": 117,
+            "predictive_upper_95": 161,
+            "expected_default_rate_pct": 13.837129054520357,
+            "simulated_mean": 138.39726,
+            "simulated_sd": 11.171207834983646,
+            "prob_more_than_30pct_default": 0.0
+        },
+        {
+            "risk_group": "1-month delay",
+            "future_customers": 100,
+            "posterior_mean_pd": 0.33956639566395663,
+            "expected_defaults": 33.956639566395665,
+            "predictive_sd": 4.798710124522948,
+            "predictive_lower_95": 25,
+            "predictive_upper_95": 43,
+            "expected_default_rate_pct": 33.956639566395665,
+            "simulated_mean": 33.94981,
+            "simulated_sd": 4.805002701757825,
+            "prob_more_than_30pct_default": 0.76207
+        },
+        {
+            "risk_group": "1-month delay",
+            "future_customers": 500,
+            "posterior_mean_pd": 0.33956639566395663,
+            "expected_defaults": 169.78319783197833,
+            "predictive_sd": 11.28228133216441,
+            "predictive_lower_95": 148,
+            "predictive_upper_95": 192,
+            "expected_default_rate_pct": 33.956639566395665,
+            "simulated_mean": 169.78388,
+            "simulated_sd": 11.279349810410173,
+            "prob_more_than_30pct_default": 0.95804
+        },
+        {
+            "risk_group": "1-month delay",
+            "future_customers": 1000,
+            "posterior_mean_pd": 0.33956639566395663,
+            "expected_defaults": 339.56639566395665,
+            "predictive_sd": 16.880734241184147,
+            "predictive_lower_95": 307,
+            "predictive_upper_95": 373,
+            "expected_default_rate_pct": 33.956639566395665,
+            "simulated_mean": 339.54827,
+            "simulated_sd": 16.880699334064925,
+            "prob_more_than_30pct_default": 0.99051
+        },
+        {
+            "risk_group": "2+ months delay",
+            "future_customers": 100,
+            "posterior_mean_pd": 0.6954022988505747,
+            "expected_defaults": 69.54022988505747,
+            "predictive_sd": 4.674518149011056,
+            "predictive_lower_95": 60,
+            "predictive_upper_95": 78,
+            "expected_default_rate_pct": 69.54022988505747,
+            "simulated_mean": 69.54708,
+            "simulated_sd": 4.69179533586025,
+            "prob_more_than_30pct_default": 1.0
+        },
+        {
+            "risk_group": "2+ months delay",
+            "future_customers": 500,
+            "posterior_mean_pd": 0.6954022988505747,
+            "expected_defaults": 347.7011494252873,
+            "predictive_sd": 11.080493321792744,
+            "predictive_lower_95": 326,
+            "predictive_upper_95": 369,
+            "expected_default_rate_pct": 69.54022988505746,
+            "simulated_mean": 347.60773,
+            "simulated_sd": 11.115532117136812,
+            "prob_more_than_30pct_default": 1.0
+        },
+        {
+            "risk_group": "2+ months delay",
+            "future_customers": 1000,
+            "posterior_mean_pd": 0.6954022988505747,
+            "expected_defaults": 695.4022988505747,
+            "predictive_sd": 16.714035900296473,
+            "predictive_lower_95": 662,
+            "predictive_upper_95": 728,
+            "expected_default_rate_pct": 69.54022988505746,
+            "simulated_mean": 695.36867,
+            "simulated_sd": 16.7930233261048,
+            "prob_more_than_30pct_default": 1.0
+        }
+    ]
+}

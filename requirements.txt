@@ -1,0 +1,15 @@
+
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+arviz
+xarray
+netcdf4
+plotly
+google-genai
+python-dotenv
+fastapi
+uvicorn
+pydantic

@@ -1,0 +1,13 @@
+risk_group,chain,acceptance_rate
+No reported delay,1,0.4673333333333333
+No reported delay,2,0.465
+No reported delay,3,0.4503333333333333
+No reported delay,4,0.4513333333333333
+1-month delay,1,0.46366666666666667
+1-month delay,2,0.4676666666666667
+1-month delay,3,0.45466666666666666
+1-month delay,4,0.4613333333333333
+2+ months delay,1,0.44433333333333336
+2+ months delay,2,0.45666666666666667
+2+ months delay,3,0.453
+2+ months delay,4,0.455

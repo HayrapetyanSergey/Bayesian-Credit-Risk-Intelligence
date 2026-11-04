@@ -1,0 +1,32 @@
+{
+    "observations": 30000,
+    "defaults": 6636,
+    "non_defaults": 23364,
+    "observed_default_rate": 0.2212,
+    "average_age": 35.4855,
+    "median_age": 34.0,
+    "average_credit_limit": 167484.32266666667,
+    "median_credit_limit": 140000.0,
+    "min_credit_limit": 10000,
+    "max_credit_limit": 1000000,
+    "risk_groups": [
+        {
+            "risk_group": "No reported delay",
+            "customers": 23182,
+            "defaults": 3207,
+            "default_rate": 0.13834009145026313
+        },
+        {
+            "risk_group": "1-month delay",
+            "customers": 3688,
+            "defaults": 1252,
+            "default_rate": 0.33947939262472887
+        },
+        {
+            "risk_group": "2+ months delay",
+            "customers": 3130,
+            "defaults": 2177,
+            "default_rate": 0.6955271565495208
+        }
+    ]
+}
