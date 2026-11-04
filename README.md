@@ -13,6 +13,15 @@
 
 ---
 
+### Interactive Dashboard
+
+**Live R Shiny Dashboard:** [Բացել Dashboard-ը](https://sergeyhayrapetyan-bayesian-credit-risk.share.connect.posit.cloud/)
+
+Հավելվածը հրապարակված է Posit Connect Cloud-ում և հասանելի է դիտարկման համար՝ առանց Python կամ R տեղադրելու։
+
+Dashboard-ը ներառում է տվյալների ուսումնասիրություն, Bayesian posterior analysis, posterior predictive scenarios և model assessment։
+---
+
 # 1. Նախագծի համառոտ նկարագրություն
 
 **Bayesian Credit Risk Intelligence**-ը բայեսյան վիճակագրության, տվյալների վերլուծության, հավանականային կանխատեսման և արհեստական բանականության մեթոդները համատեղող հետազոտական նախագիծ է։
